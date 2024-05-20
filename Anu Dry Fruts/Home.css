@@ -1,0 +1,87 @@
+body{
+    background-image: url("Images/Logo.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    opacity: 0.9;
+}
+.carousel-item img {
+    height: 60vh; 
+    object-fit: cover; 
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+header{
+    display: flex;
+    width: auto;
+    height: 100px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: bisque;
+}
+h1{
+    margin-left: 350px;
+}
+span{
+    margin-left: 250px;
+    
+}
+.card{
+    width: 200px;
+    height: 200px;
+    color: black;
+    background-color: azure;
+    align-items: center;
+    border: 2px soild dashed grey;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+.container-1 {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#successMessage {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
